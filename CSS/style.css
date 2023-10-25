@@ -1,0 +1,464 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Bebas+Neue&family=Calistoga&family=Poppins:wght@400;500;600&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+      background-image: url(../Image/BackgrounfImage.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 720px;
+  }
+
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+      height: 133px;
+      
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9999999999999999) 85%, rgba(0, 0, 0, 0.9999999999999999) 100%);
+  }
+
+  .navbar ul {
+      display: flex;
+      list-style-type: none;
+  }
+
+  .navbar li {
+      margin-left: 69px;
+
+  }
+
+  .navbar li:hover {
+      text-decoration: underline;
+      color: #f64b3c;
+      text-decoration-style: solid;
+      text-underline-offset: 9px;
+      text-decoration-thickness: 3px;
+
+  }
+
+  .navbar a {
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: 600;
+    
+      text-decoration: none;
+  }
+
+  .head-main {
+      
+      width: 43%;
+      margin-left: 140px;
+      margin-top: 80px;
+  }
+
+  .head-main h1 {
+      font-size: 91px;
+      line-height: 97px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-transform: capitalize;
+  }
+
+  .head-main p {
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Nunito";
+      text-align: justify;
+      margin: 30px 0px;
+  }
+
+  button {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Montserrat";
+      text-align: center;
+      width: 252px;
+      height: 55px;
+      border-radius: 32px;
+      background-color: #f64b3c;
+      border: none;
+      transition: 0.3s ease-in;
+  }
+
+  button:hover {
+      background-color: #ffffff;
+      color: #f64b3c;
+  }
+
+  .main {
+      
+      background-color: #f6eedf;
+  }
+
+  .main-chef-container {
+      padding: 80px;
+      border: 2px solid rgb(6, 241, 57);
+  }
+
+  .main-chef-head h2 {
+      font-size: 64px;
+      color: #f64b3c;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-align: center;
+      text-transform: capitalize;
+  }
+
+  .main-chef-head p {
+      width: 40%;
+      margin: auto;
+    
+      height: 160px;
+      font-size: 25px;
+      color: #f64b3c;
+      font-weight: 400;
+      margin-top: 18px;
+      font-family: "Montserrat";
+      text-align: center;
+  }
+
+  .main-chef-founder {
+      display: flex;
+    
+
+  }
+
+  .main-chef-card {
+      
+      width: 23%;
+      margin: auto;
+      text-align: center;
+
+
+  }
+
+  .main-chef-card img {
+      border-radius: 50%;
+  }
+
+  .main-chef-card h4 {
+      font-size: 33px;
+      text-transform: uppercase;
+      color: #f64b3c;
+      font-weight: 700;
+      font-family: "Archivo";
+      margin: 16px 0px;
+  }
+
+  .main-chef-card h6 {
+
+
+      font-size: 18px;
+      color: #f64b3c;
+      font-family: "Nunito";
+  }
+
+  .best-burger {
+
+      height: 700px;
+      display: flex;
+
+      background-color: #f64b3c;
+
+  }
+
+  .best-burger-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    
+      margin: auto;
+  }
+
+  .best-burger img {
+      border-radius: 50%;
+
+  }
+
+  .best-burger-side h2 {
+      font-size: 75px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-transform: capitalize;
+  }
+
+  .best-burger-side p {
+      
+      font-size: 30px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Nunito";
+      text-align: justify;
+      margin: 30px 0px;
+  }
+
+  .big-burger {
+
+      height: 700px;
+      background-color: #f6eedf;
+      display: flex;
+  }
+
+  .big-burger-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
+      
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      gap: 6rem;
+  }
+
+  .big-burger-side h2 {
+      font-size: 75px;
+      color: #f64b3c;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-transform: capitalize;
+  }
+
+  .big-burger-container p {
+
+      margin: 30px 0px;
+      font-size: 30px;
+      text-align: justify;
+      color: #f64b3c;
+      font-weight: 400;
+      font-family: "Montserrat";
+  }
+
+  .big-burger-container img {
+      border-radius: 50%;
+  }
+
+  .popular-package {
+      height: 700px;
+      background-color: #f6eedf;
+      display: flex;
+      flex-direction: column;
+      text-transform: capitalize;
+  }
+
+  .popular-package h2 {
+      font-size: 75px;
+      color: #f64b3c;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-align: center;
+      
+  }
+
+  .popular-package-container {
+      display: grid;
+      gap: 6rem;
+      margin: auto;
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .popular-package-card {
+      text-align: center;
+      
+      width: 336px;
+      height: 445px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      background-color: #ffffff;
+  }
+
+  .popular-package-card h3 {
+      font-size: 33px;
+      text-transform: uppercase;
+      color: #f64b3c;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-align: center;
+  }
+
+  .popular-package-card p {
+    
+      font-size: 20px;
+      color: #f64b3c;
+      font-weight: 400;
+      font-family: "Montserrat";
+      text-align: center;
+      margin: 30px 0px;
+  }
+
+  .popular-package-card img {
+      margin: 20px 0px;
+  }
+
+  .barry {
+      background: linear-gradient(90deg, rgba(246,75,60,0.3) 0%, rgba(246,75,60,0.3) 0%, rgba(246,75,60,0.3) 0%), url(../Image/secondbg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .barry-container
+  {
+    width: 60%;
+    
+    margin: auto;
+    
+  }
+  .barry-container p {
+
+    
+      font-size: 36px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Archivo";
+      text-align: center;
+  }
+
+  .barry-container h3 {
+      font-size: 45px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Calistoga";
+      text-align: center;
+      text-transform: capitalize;
+      margin: 36px 0px;
+  }
+
+  .update
+  {
+    
+height: 700px;
+background-color: #f6eedf;
+display: flex;
+  }
+  .update-container
+  {
+    
+    width: 60%;
+    margin: auto;
+  }
+  .update h2{
+    font-size: 75px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+text-transform: capitalize;
+  }
+  .update p{
+font-size: 30px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+margin:  60px auto;
+width: 80%;
+  }
+
+  .input
+  {
+    margin: auto;
+
+    text-align: center;
+  }
+  input
+  {
+    width: 549px;
+height: 63px;
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;
+background-color: #ffffff;
+border: none;
+
+  }
+  .input button
+  {
+    width: 222px;
+height: 65px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+background-color: #f64b3c;
+font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+  }
+
+  footer{
+height: 400px;
+display: flex;
+background-color: #222222;
+  }
+  .footer-container
+  {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+  }
+.footer-title h3{
+    font-size: 31px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Archivo";
+}
+.footer-title p
+{
+font-size: 24px;
+color: #ffffff;
+width: 80%;
+margin: 44px 0px;
+text-align: justify;
+font-weight: 400;
+font-family: "Nunito";
+}
+
+.footer-list
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.footer-list h2{
+    margin-bottom: 55px ;
+}
+.footer-list li
+{
+    list-style-type: none;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer i{
+    font-size: 34px;
+    color: #ffffff;
+    margin-left: 20px;
+
+}
